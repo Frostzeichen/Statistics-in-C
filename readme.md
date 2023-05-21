@@ -13,7 +13,7 @@ Also, let me know at cruztjomar@gmail.com if there is any kind of statistical te
 - [x] 0. Fundamental mathematical operations
 - [x] 1. Mean
 - [x] 2. Variance
-- [ ] 3. Standard deviation
+- [x] 3. Standard deviation
 - [ ] 4. Coefficient of variation
 - [ ] 5. Skewness
 - [ ] 6. Kurtosis
