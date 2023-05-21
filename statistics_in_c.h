@@ -1,5 +1,5 @@
-#ifndef protostat_h
-#define protostat_h
+#ifndef statistics_in_c_h
+#define statistics_in_c_h
 #include <stdio.h>
 
 int array_size(float arr[]) {
@@ -103,6 +103,6 @@ float standard_deviation(float dataset[], float error_correction, int size_of_da
 // Plans:
 // 1. Keep going until I reach Inferential Statistics.
 // 2. Make a scientific calculator with this thing.
-// 3. "Protostat" is a codename during production. Replace to official name soon.
+// 3. "Protostat" is a codename during production. Replace to official name soon. (Done!)
 
 #endif

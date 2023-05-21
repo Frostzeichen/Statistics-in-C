@@ -1,3 +1,15 @@
+# About Statistics in C
+
+**Statistics in C** is a module for doing statistics work in C. It is designed to be used in low-level and edge-computed applications, written in a way that makes it easy for a user to edit when needed.
+
+## For the user
+The only thing you'll really need here is the file named `statistics_in_c.h`.
+
+The file `main.c` is a demo so you can see how it works and I can easily try out things for testing and stuff.
+
+Also, let me know at cruztjomar@gmail.com if there is any kind of statistical test you'd want to see added here. For now though, I'm only planning to go through my checklist first.
+
+## Checklist
 - [x] 0. Fundamental mathematical operations
 - [x] 1. Mean
 - [x] 2. Variance

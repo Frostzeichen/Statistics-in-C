@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "protostat.h"
+#include "statistics_in_c.h"
 
 int welcome_instructions() {
   printf("What would you like to do? (add underscores & lowercaps only)\n");
