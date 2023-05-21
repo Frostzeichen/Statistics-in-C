@@ -1,0 +1,16 @@
+- [x] 0. Fundamental mathematical operations
+- [x] 1. Mean
+- [x] 2. Variance
+- [ ] 3. Standard deviation
+- [ ] 4. Coefficient of variation
+- [ ] 5. Skewness
+- [ ] 6. Kurtosis
+- [ ] 7. Covariance
+- [ ] 8. Correlation
+- [ ] 9. Simple linear regression
+- [ ] 10. Multiple linear regression
+- [ ] 11. Analysis of variance (ANOVA)
+- [ ] 12. Chi-squared test
+- [ ] 13. t-test
+- [ ] 14. F-test
+- [ ] 15. Non-parametric tests (e.g. Mann-Whitney U test, Wilcoxon signed-rank test)
