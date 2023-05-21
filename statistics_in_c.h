@@ -99,10 +99,6 @@ float standard_deviation(float dataset[], float error_correction, int size_of_da
   return standard_deviation;
 }
 
-// Descriptive Statistics
-// Plans:
-// 1. Keep going until I reach Inferential Statistics.
-// 2. Make a scientific calculator with this thing.
-// 3. "Protostat" is a codename during production. Replace to official name soon. (Done!)
+// Original by Terenz Jomar Dela Cruz
 
 #endif

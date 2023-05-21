@@ -26,3 +26,5 @@ Also, let me know at cruztjomar@gmail.com if there is any kind of statistical te
 - [ ] 13. t-test
 - [ ] 14. F-test
 - [ ] 15. Non-parametric tests (e.g. Mann-Whitney U test, Wilcoxon signed-rank test)
+
+Original by Terenz Jomar Dela Cruz
