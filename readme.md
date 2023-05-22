@@ -26,7 +26,7 @@ The rest are just Replit mumbo-jumbo to make things work over there.
 - [x] 1. Mean
 - [x] 2. Variance
 - [x] 3. Standard deviation
-- [ ] 4. Coefficient of variation
+- [x] 4. Coefficient of variation
 - [ ] 5. Skewness
 - [ ] 6. Kurtosis
 - [ ] 7. Covariance

@@ -10,6 +10,7 @@ int welcome_instructions() {
   printf("- mean\n");
   printf("- variance\n");
   printf("- standard_deviation\n");
+  printf("- coefficient_of_variation\n");
   printf("Type here: ");
   return 0;
 }
@@ -74,6 +75,15 @@ int main(void) {
       scanf("%d", &correction);
       float xstandard_deviation = standard_deviation(dataset_array, correction, index);
       printf("Standard Deviation = %f\n", xstandard_deviation);
+    }
+    else if (strcmp(user_command, "coefficient_of_variation") == 0) {
+      printf("Please enter a correction value (0 for population or 1 for sample)\n");
+      int correction;
+      scanf("%d", &correction);
+      float xstandard_deviation = standard_deviation(dataset_array, correction, index);
+      printf("Standard Deviation = %f.2\n", xstandard_deviation);
+      float xcoefficient_of_variation = coefficient_of_variation(dataset_array, correction, index);
+      printf("Coefficient of Variation = %f\n", xcoefficient_of_variation);
     }
     else {
       printf("Error. Invalid command.");
