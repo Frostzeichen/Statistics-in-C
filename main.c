@@ -11,6 +11,7 @@ int welcome_instructions() {
   printf("- variance\n");
   printf("- standard_deviation\n");
   printf("- coefficient_of_variation\n");
+  printf("- skewness\n");
   printf("Type here: ");
   return 0;
 }
@@ -84,6 +85,15 @@ int main(void) {
       printf("Standard Deviation = %f.2\n", xstandard_deviation);
       float xcoefficient_of_variation = coefficient_of_variation(dataset_array, correction, index);
       printf("Coefficient of Variation = %f\n", xcoefficient_of_variation);
+    }
+    else if (strcmp(user_command, "skewness") == 0) {
+      printf("Please enter a correction value (0 for population or 1 for sample)\n");
+      int correction;
+      scanf("%d", &correction);
+      float xstandard_deviation = standard_deviation(dataset_array, correction, index);
+      printf("Standard Deviation = %f.2\n", xstandard_deviation);
+      float xskewness = skewness(dataset_array, correction, index);
+      printf("Skewness = %f\n", xskewness);
     }
     else {
       printf("Error. Invalid command.");
