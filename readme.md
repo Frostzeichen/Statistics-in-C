@@ -5,7 +5,7 @@
 ## For the User
 You can find all statistics formulas inside the `formulas` folder. Pick what you need since all formulas are meant to work independently from one another.
 
-And if you think you need _everything_, the file `statistics_in_c.h` lets you take the all without needing to link (er, include?) every single one into your project. You'll only need to include that one file, and you can work with the functions as if they would if you copy-pasted each one.
+And if you think you need _everything_, the file `statistics_in_c.h` lets you take them all without needing to link (er, include?) every single one into your project. You'll only need to include that one file, and you can work with the functions as if they would if you copy-pasted each one.
 
 Just make sure that `formulas` and `statistics_in_c.h` are both in the same folder level. Unless you want to change the folder for every single formula. You can use ChatGPT to help you out with that one.
 
