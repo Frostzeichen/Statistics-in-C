@@ -23,8 +23,6 @@ int main(void) {
     scanf("%s", user_command);
     printf("You selected \"%s\".\n", user_command);
   
-    
-  
     if (strcmp(user_command, "add") == 0) {
       // Initiate variables
       float* dataset_array = malloc(sizeof(float));
