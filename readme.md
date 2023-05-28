@@ -2,24 +2,29 @@
 
 **Statistics in C** is a module for doing statistics work in C. It is designed to be used in low-level and edge-computed applications, written in a way that makes it easy for a user to edit when needed.
 
-## For the user
-The only thing you'll really need here is the file named `statistics_in_c.h`.
+## Table of Contents
+1. [**For the User**](##For-the-User)
+2. [**Demo Information**](##Demo-Information)
+3. [**Checklist**](##Checklist)
 
-The file `main.c` is a demo so you can see how it works and so I can easily try out things for testing and stuff for myself.
+## For the User
+You can find all statistics formulas inside the `formulas` folder. Pick what you need since all formulas are meant to work independently from one another.
+
+And if you think you need _everything_, the file `statistics_in_c.h` lets you take the all without needing to link (er, include?) every single one into your project. You'll only need to include that one file, and you can work with the functions as if they would if you copy-pasted each one.
+
+Just make sure that `formulas` and `statistics_in_c.h` are both in the same folder level. Unless you want to change the folder for every single formula. You can use ChatGPT to help you out with that one.
+
 
 Also, let me know at cruztjomar@gmail.com if there is any kind of statistical test you'd want to see added here. For now though, I'm only planning to go through my checklist first.
 
-## Demo
-Access the demo to see a taste of Statistics in C by going to my Replit repository:
+I'd be glad if you can donate to my PayPal too. It's the same email as my work email. That's gonna help a lot with development!
+
+## Demo Information
+Access the demo to have a taste of **Statistics in C** by going to my Replit repository:
 
 https://replit.com/@Terenz-JomarJom/Statistics-in-C
 
 Or if you want to compile this by yourself, all you need are these two files:
-
-- main.c
-- statistics_in_c.h
-
-The rest are just Replit mumbo-jumbo to make things work over there.
 
 ## Checklist
 - [x] 0. Fundamental mathematical operations
