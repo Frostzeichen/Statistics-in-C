@@ -2,17 +2,12 @@
 #define statistics_in_c_h
 #include <stdio.h>
 
-int array_size(float arr[]) {
-    return sizeof(arr) / sizeof(arr[0]);
-}
-
 // Basic Mathematical Functions
 // In the future, try to remove number_of_addends so it only takes in an array and that's it. Maybe add another set that converts or stuff. Idk.
 float add(float addends[], int number_of_addends) {
   float sum = 0.0;
   for (int i = 0; i < number_of_addends; i++) {
     sum += addends[i];
-    printf("%f\n", sum);
   }
   return sum;
 }
