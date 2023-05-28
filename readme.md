@@ -5,7 +5,8 @@
 ## Table of Contents
 1. [**For the User**](##For-the-User)
 2. [**Demo Information**](##Demo-Information)
-3. [**Checklist**](##Checklist)
+3. [**Syntax**](##Syntax)
+4. [**Checklist**](##Checklist)
 
 ## For the User
 You can find all statistics formulas inside the `formulas` folder. Pick what you need since all formulas are meant to work independently from one another.
@@ -25,6 +26,9 @@ Access the demo to have a taste of **Statistics in C** by going to my Replit rep
 https://replit.com/@Terenz-JomarJom/Statistics-in-C
 
 Or if you want to compile this by yourself, all you need are these two files:
+
+## Syntax
+You can find everything inside the [syntax.md](syntax.md) file.
 
 ## Checklist
 - [x] 0. Fundamental mathematical operations
