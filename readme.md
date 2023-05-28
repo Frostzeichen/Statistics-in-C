@@ -2,12 +2,6 @@
 
 **Statistics in C** is a module for doing statistics work in C. It is designed to be used in low-level and edge-computed applications, written in a way that makes it easy for a user to edit when needed.
 
-## Table of Contents
-1. [**For the User**](##For-the-User)
-2. [**Demo Information**](##Demo-Information)
-3. [**Syntax**](##Syntax)
-4. [**Checklist**](##Checklist)
-
 ## For the User
 You can find all statistics formulas inside the `formulas` folder. Pick what you need since all formulas are meant to work independently from one another.
 
