@@ -2,11 +2,11 @@
 All functions in **Statistics in C** return a `float` output.
 
 ## Table of Contents
-1. [**Getting the Length of an Array in C**](##Getting-the-Length-of-an-Array-in-C)
-2. [**Addition**](##Adition)
-3. [**Subtraction**](##Subtraction)
-4. [**Multiplication**](##Multiplication)
-5. [**Division**](##Division)
+1. Getting the Length of an Array in C
+2. Addition
+3. Subtraction
+4. Multiplication
+5. Division
 
 Can't find the other functions? Don't worry, I'll add them in here eventually.
 
