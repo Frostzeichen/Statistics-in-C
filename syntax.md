@@ -11,7 +11,7 @@ All functions in **Statistics in C** return a `float` output.
 Can't find the other functions? Don't worry, I'll add them in here eventually.
 
 ## Getting the Length of an Array in C
-The functions here take in arrays of data to compute. They also need the length of that array (the total number of data points/elements in your dataset).
+The functions here need arrays of data for input. They will also need the length of that array (the total number of data points/elements in your dataset).
 
 To do that in C, you have to do the following:
 
