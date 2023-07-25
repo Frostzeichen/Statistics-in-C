@@ -1,25 +1,16 @@
 # About Statistics in C
 
-**Statistics in C** is a module for doing statistics work in C. It is designed to be used in low-level and edge-computed applications, written in a way that makes it easy for a user to edit when needed.
+**Statistics in C** is a library for doing statistics work in C. It is designed to be used in low-level and edge-computed applications, written in a way that makes it easy for a user to edit each formula when needed.
 
 ## For the User
 You can find all statistics formulas inside the `formulas` folder. Pick what you need since all formulas are meant to work independently from one another.
 
-And if you think you need _everything_, the file `statistics_in_c.h` lets you take them all without needing to link (er, include?) every single one into your project. You'll only need to include that one file, and you can work with the functions as if they would if you copy-pasted each one.
+And if you think you need _everything_, the file `statistics_in_c.h` lets you take them all without needing to `#include` every single one into your project. You'll only need to include that one file, and you can work with the functions as if you would if you copy-pasted each one.
 
 Just make sure that `formulas` and `statistics_in_c.h` are both in the same folder level. Unless you want to change the folder for every single formula. You can use ChatGPT to help you out with that one.
 
-
-Also, let me know at cruztjomar@gmail.com if there is any kind of statistical test you'd want to see added here. For now though, I'm only planning to go through my checklist first.
-
-I'd be glad if you can donate to my PayPal too. It's the same email as my work email. That's gonna help a lot with development!
-
 ## Demo Information
-Access the demo to have a taste of **Statistics in C** by going to my Replit repository:
-
-https://replit.com/@Terenz-JomarJom/Statistics-in-C
-
-Or if you want to compile this by yourself, all you need are these two files:
+The `main.c` file contains a demo that lets you access each equation. It acts as a demo for the whole project.
 
 ## Syntax
 You can find everything inside the [syntax.md](syntax.md) file.
