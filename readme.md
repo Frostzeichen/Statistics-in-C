@@ -24,7 +24,7 @@ You can find everything inside the [syntax.md](syntax.md) file.
 - [x] 5. Skewness
 - [ ] 6. Kurtosis
 - [ ] 7. Covariance
-- [ ] 8. Correlation
+- [ ] 8. Pearson Correlation Coefficient
 - [ ] 9. Simple linear regression
 - [ ] 10. Multiple linear regression
 - [ ] 11. Analysis of variance (ANOVA)
@@ -32,5 +32,6 @@ You can find everything inside the [syntax.md](syntax.md) file.
 - [ ] 13. t-test
 - [ ] 14. F-test
 - [ ] 15. Non-parametric tests (e.g. Mann-Whitney U test, Wilcoxon signed-rank test)
+- [x] 16. Slope
 
 Original by Terenz Jomar Dela Cruz

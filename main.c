@@ -12,11 +12,12 @@ int welcome_instructions() {
   printf("- standard_deviation\n");
   printf("- coefficient_of_variation\n");
   printf("- skewness\n");
+  printf("- slope\n");
   printf("Type here: ");
   return 0;
 }
 
-int main(void) {
+int main (void) {
   while (1) {
     welcome_instructions();
     char user_command[15];
@@ -253,6 +254,26 @@ int main(void) {
         scanf("%f", dataset_array[i]);
       }
     }
+    else if (strcmp(user_command, "slope") == 0) {
+      int x1;
+      int y1;
+      int x2;
+      int y2;
+      printf("Please input x coordinate for start point (x1):\n");
+      scanf("%d", &x1);
+      printf("Please input y coordinate for start point (y1):\n");
+      scanf("%d", &y1);
+      printf("Starting point coordinates is (%d, %d)\n", x1, y1);
+      printf("Please input x coordinate for end point (x2):\n");
+      scanf("%d", &x2);
+      printf("Please input y coordinate for end point (y2):\n");
+      scanf("%d", &y2);
+      printf("Ending point coordinates is (%d, %d)\n", x2, y2);
+      printf("Crunching numbers. Please wait.\n");
+      float xslope = slope(x1, y1, x2, y2);
+      printf("The slope is: %.2f\n", xslope);
+    } // end of last command
+    // else-if (strcmp(user_command, "math function")) for new command here
     else {
       printf("Error. Invalid command.");
     }

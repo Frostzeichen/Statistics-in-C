@@ -10,5 +10,6 @@
 #include "formulas/standard_deviation.h"
 #include "formulas/coefficient_of_variation.h"
 #include "formulas/skewness.h"
+#include "formulas/slope.h"// Last item
 // Original by Terenz Jomar Dela Cruz
 #endif
