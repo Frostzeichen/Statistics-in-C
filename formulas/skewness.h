@@ -9,7 +9,7 @@ float skewness(float dataset[], float error_correction, int size_of_dataset) {
   float mean = sum / size_of_dataset;
   float* differences_for_variance = malloc(size_of_dataset * sizeof(float));
   if (differences_for_variance == NULL) {
-    printf("Error. Memory allocation failed.\n");
+    return -1;
   }
   for (int i = 0; i < size_of_dataset; i++) {
     differences_for_variance[i] = dataset[i] - mean;

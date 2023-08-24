@@ -16,6 +16,7 @@ int welcome_instructions() {
   printf("- coefficient_of_variation\n");
   printf("- skewness\n");
   printf("- slope\n");
+  printf("- quit\n");
   printf("Type here: ");
   return 0;
 }
@@ -27,7 +28,10 @@ int main (void) {
     scanf("%s", user_command);
     printf("You selected \"%s\".\n", user_command);
   
-    if (strcmp(user_command, "add") == 0) {
+    if (strcmp(user_command, "quit") == 0) {
+      break;
+    }
+    else if (strcmp(user_command, "add") == 0) {
       // Initiate variables
       float* dataset_array = malloc(sizeof(float));
       char input[10];

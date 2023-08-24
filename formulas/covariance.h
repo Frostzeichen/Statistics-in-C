@@ -1,6 +1,5 @@
 #ifndef covariance_h
 #define covariance_h
-#include <stdlib.h>
 // Only use this for sizes of similar length.
 
 float covariance (float dataset_x[], float dataset_y[], int sample_size, int error_correction) {
