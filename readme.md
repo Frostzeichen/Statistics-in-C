@@ -23,7 +23,7 @@ You can find everything inside the [syntax.md](syntax.md) file.
 - [x] 4. Coefficient of variation
 - [x] 5. Skewness
 - [ ] 6. Kurtosis
-- [ ] 7. Covariance
+- [x] 7. Covariance
 - [ ] 8. Pearson Correlation Coefficient
 - [ ] 9. Simple linear regression
 - [ ] 10. Multiple linear regression
@@ -33,5 +33,9 @@ You can find everything inside the [syntax.md](syntax.md) file.
 - [ ] 14. F-test
 - [ ] 15. Non-parametric tests (e.g. Mann-Whitney U test, Wilcoxon signed-rank test)
 - [x] 16. Slope
+
+## Stuff that Don't Work on Replit
+The following don't work on Replit for some reason. They'll work if you build the demo on your own machine, though.
+- Covariance (returns a NaN)
 
 Original by Terenz Jomar Dela Cruz

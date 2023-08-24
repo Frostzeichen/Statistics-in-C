@@ -1,4 +1,7 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 #include "statistics_in_c.h"
 
 int welcome_instructions() {
@@ -239,20 +242,53 @@ int main (void) {
       free(dataset_array);
     }
     else if (strcmp(user_command, "covariance") == 0) {
-      // Initiate variables.
-      int number_of_variables;
-      int dataset_per_variable;
-      float** dataset_array = (float**)malloc(number_of_variables * sizeof(float*));
-      for (int i = 0; i < number_of_variables; i++) {
-        dataset_array[i] = (float*)malloc(dataset_per_variable * sizeof(float));
+      float* dataset_x = malloc(sizeof(float));
+      float* dataset_y = malloc(sizeof(float));
+      int sample_size_x;
+      int sample_size_y;
+      char input[10];
+      int index = 0;
+      int correction;
+
+      while (1) { // Input for variable 1 (x)
+        printf("Enter a number for your variable 1 (of 2) or 'x' to submit: ");
+        scanf("%s", input);
+        if (input [0] == 'x') {
+          break;
+        }
+        float f = strtof(input, NULL);
+        dataset_x = realloc(dataset_x, sizeof(float) * (index + 1));
+        dataset_x[index] = f;
+        index++;
       }
-      // Input data.
-      printf("Please enter the number of variables to compute:\n");
-      scanf("%d", number_of_variables);
-      for (int i = 0; i < number_of_variables; i++) {
-        printf("Please input data for variable %d.\n", i);
-        scanf("%f", dataset_array[i]);
+      sample_size_x = index;
+      printf("Sample size (x): %d\n", sample_size_x);
+      index = 0;
+
+      while (1) { // Input for variable 2 (y)
+        printf("Enter a number for your variable 2 (of 2) or 'x' to submit: ");
+        scanf("%s", input);
+        if (input [0] == 'x') {
+          break;
+        }
+        float f = strtof(input, NULL);
+        dataset_y = realloc(dataset_y, sizeof(float) * (index + 1));
+        dataset_y[index] = f;
+        index++;
       }
+      sample_size_y = index;
+      printf("Sample size (y): %d\n", sample_size_y);
+      if (sample_size_x != sample_size_y) {
+        printf("Invalid dataset. Your datasets do not have the same sizes. Please try again with equal sizes.");
+        break;
+      }
+
+      printf("Input correction value (0 or 1)\n");
+      scanf("%d", &correction);
+      printf("Error correction is %d\n", correction);
+
+      float xcovariance = covariance(dataset_x, dataset_y, 5, correction);
+      printf("The covariance is: %.2f\n", xcovariance);
     }
     else if (strcmp(user_command, "slope") == 0) {
       int x1;
@@ -272,7 +308,8 @@ int main (void) {
       printf("Crunching numbers. Please wait.\n");
       float xslope = slope(x1, y1, x2, y2);
       printf("The slope is: %.2f\n", xslope);
-    } // end of last command
+    }
+    // end of last command
     // else-if (strcmp(user_command, "math function")) for new command here
     else {
       printf("Error. Invalid command.");

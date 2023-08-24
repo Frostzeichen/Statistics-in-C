@@ -7,6 +7,7 @@
 #include "formulas/multiply.h"
 #include "formulas/mean.h"
 #include "formulas/variance.h"
+#include "formulas/covariance.h"
 #include "formulas/standard_deviation.h"
 #include "formulas/coefficient_of_variation.h"
 #include "formulas/skewness.h"
