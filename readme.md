@@ -32,7 +32,13 @@ You can find everything inside the [syntax.md](syntax.md) file.
 - [ ] 13. t-test
 - [ ] 14. F-test
 - [ ] 15. Non-parametric tests (e.g. Mann-Whitney U test, Wilcoxon signed-rank test)
+
+**Stuff I added after writing the list:**
 - [x] 16. Slope
+- [ ] 17. Median
+- [ ] 18. Mode
+- [ ] 19. Frequency table
+- [ ] 20. Sum of Squares
 
 ## Stuff that Don't Work on Replit
 The following don't work on Replit for some reason. They'll work if you build the demo on your own machine, though.
