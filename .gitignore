@@ -1,7 +1,9 @@
 /.ccls-cache
 /read-only files
+main.exe
 main
 Makefile
 replit.nix
 .breakpoints
 .replit
+.vscode
