@@ -1,6 +1,10 @@
 #ifndef skewness_h
 #define skewness_h
 
+// TODO: Separation of concerns between c and h files.
+#include <stdlib.h>
+#include <math.h>
+
 float skewness(float dataset[], float error_correction, int size_of_dataset) {
   float sum = 0.0;
   for (int i = 0; i < size_of_dataset; i++) {
